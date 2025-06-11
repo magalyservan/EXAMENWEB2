@@ -6,7 +6,9 @@
     <title>Listado de Tesis y Tesistas</title>
 </head>
 <body>
+     <p>https://github.com/magalyservan/EXAMENWEB2.git</p>
     <h1>Listado de Tesis</h1>
+    
     <?php
     if(isset($_GET["Succes"]) && $_GET["Succes"]=="true"){
         echo "<p><b>El procesamiento fue exitoso. </b></p>";
